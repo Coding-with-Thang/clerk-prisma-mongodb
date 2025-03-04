@@ -2,7 +2,7 @@ import { Schema, model, models } from "mongoose";
 
 const UserSchema = new Schema({
   clerkId: {
-    type: STring,
+    type: String,
     required: true,
     unique: true,
   },
